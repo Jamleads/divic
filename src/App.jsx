@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Team from "./pages/Team";
-import Support from "./pages/support";
+import TheSupport from "./pages/TheSupport";
 
 const theRoute = createBrowserRouter(
   createRoutesFromElements(
@@ -18,7 +18,7 @@ const theRoute = createBrowserRouter(
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
       <Route path="/team" element={<Team />} />
-      <Route path="/support" element={<Support />} />
+      <Route path="/support" element={<TheSupport />} />
     </Route>
   )
 );

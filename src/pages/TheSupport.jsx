@@ -1,7 +1,7 @@
 import { Rectangle } from "../assets";
 import Showcase from "../components/Showcase";
 
-const Support = () => {
+const TheSupport = () => {
   return (
     <div>
       <Showcase
@@ -42,4 +42,4 @@ const Support = () => {
   );
 };
 
-export default Support;
+export default TheSupport;
