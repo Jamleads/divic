@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e1dede41;
+}
+
+.showcase {
+  background: url("https://res.cloudinary.com/dkmddgqsl/image/upload/v1727450728/Hero_i0knhg.png");
+  background-size: cover;
+  background-position: center;
+}
+.showcase2 {
+  background: url("https://res.cloudinary.com/dkmddgqsl/image/upload/v1727450768/CTA_section_asnevk.png");
+  background-size: cover;
+}
+.showcase3 {
+  background: url("https://res.cloudinary.com/dkmddgqsl/image/upload/v1727450765/other_pages_hctukb.png");
+  background-size: cover;
+  background-position: center;
+}
+.float {
+  z-index: 999 !important;
+  background: #0e6130;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
