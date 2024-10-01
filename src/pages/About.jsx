@@ -39,14 +39,12 @@ const About = () => {
             className="flex md:flex-row flex-col-reverse items-center justify-between gap-10"
           >
             <div className="md:w-1/2">
-              <p className=" text-[#0E6130] font-bold text-4xl">
-                Financial Education
-              </p>
+              <p className=" text-[#0E6130] font-bold text-4xl">Get involved</p>
               <p className=" text-lg mt-3">
-                It's essential for farmers, agricultural entrepreneurs, and
-                rural communities to navigate the complex agricultural financial
-                landscape, mitigate risks, and capitalize on opportunities for
-                sustainable growth and development.
+                We invite you to join us in this vital mission, wether through
+                partnership, support, or simply spreading the word. Together, we
+                can make a lasting impact on the lives of farmers, their
+                communities, and our Nation at large.
               </p>
             </div>
             <div className="md:w-1/2">

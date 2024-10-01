@@ -6,13 +6,18 @@ body {
   background-color: #e1dede41;
 }
 
+.showcase_mobole {
+  background: url("https://res.cloudinary.com/dkmddgqsl/image/upload/v1727763725/iPhone_13_mini_-_1_vk9yzh.png");
+  background-size: cover;
+  background-position: center;
+}
 .showcase {
   background: url("https://res.cloudinary.com/dkmddgqsl/image/upload/v1727450728/Hero_i0knhg.png");
   background-size: cover;
   background-position: center;
 }
 .showcase2 {
-  background: url("https://res.cloudinary.com/dkmddgqsl/image/upload/v1727450768/CTA_section_asnevk.png");
+  background: url("https://res.cloudinary.com/dkmddgqsl/image/upload/v1727762916/CTA_section_hncf2i.png");
   background-size: cover;
 }
 .showcase3 {

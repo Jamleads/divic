@@ -4,9 +4,15 @@ import AccordionItem from "../components/AccordionItem";
 import { faqs, partnerLogo } from "../utilities/useData";
 
 const Home = () => {
+  const widthOfScreen = window.screen.width;
+
   return (
     <>
-      <div className="showcase h-[90vh] flex items-center justify-center">
+      <div
+        className={`h-[100vh] flex items-center justify-center ${
+          widthOfScreen <= 500 ? "showcase_mobole" : "showcase"
+        }`}
+      >
         <div className="md:w-[85%] mx-auto w-[90%]">
           <div
             className="md:w-2/3 flex flex-col gap-5"
@@ -43,10 +49,10 @@ const Home = () => {
           className="md:w-[85%] mx-auto w-[90%] flex md:flex-row flex-col items-center
          gap-20 py-40"
         >
-          <div className="md:w-1/2" data-aos="fade-down-right">
-            <img src={Farmers} alt="" className=" -z-40" />
+          <div className="md:w-1/2 relative" data-aos="fade-down-right">
+            <img src={Farmers} alt="" className="relative z-10" />
 
-            <div className="bg-primary w-[270px] mx-auto rounded-lg -mt-20 z-40">
+            <div className="bg-primary w-[270px] mx-auto rounded-lg absolute md:bottom-10 bottom-5 left-1/2 transform -translate-x-1/2 z-20">
               <div className="flex items-center justify-center gap-5 py-3">
                 <img src={FarmersIcon} alt="farmerIcon" />
                 <p className="w-[150px] text-theWhite">
@@ -55,10 +61,11 @@ const Home = () => {
               </div>
             </div>
           </div>
+
           <div className="md:w-1/2" data-aos="fade-down-left">
             <div>
               <p className=" text-[#0E6130]">Our Introduction</p>
-              <p className=" text-5xl text-[#1E1E1E] mt-3">
+              <p className="text-5xl font-extrabold text-[#1E1E1E] mt-3">
                 Divic Farmers Aid Initiative is a non-governmental organization
                 (NGO)
               </p>
@@ -146,7 +153,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="my-20 showcase2 h-[50vh] flex items-center justify-center">
+      <div className="my-20 showcase2 h-[60vh] flex items-center justify-center">
         <div className="md:w-[85%] mx-auto w-[90%]">
           <div
             className="md:w-2/3 flex flex-col gap-5"
