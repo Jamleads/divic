@@ -14,10 +14,10 @@ const Layout = () => {
         </div>
         <div>
           <p className="text-2xl text-center">Access restricted.</p>
-          <p className="text-center">
+          {/* <p className="text-center">
             The developer responsible for building this website has not received
             payment for their services.
-          </p>
+          </p> */}
         </div>
       </div>
 
